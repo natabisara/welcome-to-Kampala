@@ -1,0 +1,49 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="style.css"type="text/css">      
+        <a href="file:///home/kampabits2018/Documents/javascript/index.html">index</a>
+        <a href="file:///home/kampabits2018/Documents/javascript/about.html"> About us</a>
+        <a href="file:///home/kampabits2018/Documents/javascript/contact.html"> Contact</a>
+        <a href="file:///home/kampabits2018/Documents/javascript/images.html">Images</a>
+        <style>
+
+        div{
+    background-color: blueviolet;
+    width: 200px;
+    color: white;
+    padding: 30px;
+}
+        
+        </style>
+   
+</head>
+<body>
+    <h1>
+        CONTACT US
+    </h1>
+    <img src="Kampalaview-703x422.jpg">
+    
+</body>
+<button>Clink here  to change the background color</button>
+<br><br>
+
+<div>What is the time?</div>
+    
+</body>
+<SCript>
+    var btn=document.querySelector("button");
+    btn.addEventListener("click", function(){
+        document.querySelector("body").style.backgroundColor=" purple"
+    });
+
+    var time=document.querySelector("div");
+    time.addEventListener("click", function(){
+        time.innerHTML=Date();
+    })
+    
+
+</SCript>
+
+
+</html>

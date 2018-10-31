@@ -1,0 +1,26 @@
+body{
+    background-color: blue
+}
+    
+
+h1{
+    text-align: center
+}
+h2{
+    text-align: left
+}
+h3{
+    text-align: left
+}
+h4{
+    text-align: left
+}
+h5{
+    text-align: left}
+   
+    div{
+        background-color: blueviolet;
+        width: 200px;
+        color: white;
+        padding: 30px;
+    }
